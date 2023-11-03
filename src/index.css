@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.player-controls{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.progressBar{
+  width: 50%;
+}
+.volume-control{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.volume-icon{
+  font-size: 26px;
+  margin-top: 8px;
+}
+.buttons-main{
+  display: flex;
+}
+.play-button{
+  margin: 0px 75px;
+}
+.icons-size{
+font-size: 28px;
+cursor: pointer;
+}
+.vol-main{
+  display: flex;
+}
+.heading{
+  width: 50%;
+  text-align: center;
+}
+.music-player{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
